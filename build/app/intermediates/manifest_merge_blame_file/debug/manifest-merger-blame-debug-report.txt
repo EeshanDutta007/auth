@@ -1,0 +1,231 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.auth"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+9        android:targetSdkVersion="30" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->/Users/ed007/Downloads/auth/android/app/src/debug/AndroidManifest.xml:6:5-66
+14-->/Users/ed007/Downloads/auth/android/app/src/debug/AndroidManifest.xml:6:22-64
+15    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+15-->[com.android.installreferrer:installreferrer:1.0] /Users/ed007/.gradle/caches/transforms-2/files-2.1/1e871edb459e1fe9c03f3d99e038eddf/jetified-installreferrer-1.0/AndroidManifest.xml:9:5-110
+15-->[com.android.installreferrer:installreferrer:1.0] /Users/ed007/.gradle/caches/transforms-2/files-2.1/1e871edb459e1fe9c03f3d99e038eddf/jetified-installreferrer-1.0/AndroidManifest.xml:9:22-107
+16
+17    <application
+17-->/Users/ed007/Downloads/auth/android/app/src/main/AndroidManifest.xml:3:4-54:19
+18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+18-->[androidx.core:core:1.3.2] /Users/ed007/.gradle/caches/transforms-2/files-2.1/22596e141ed939448a45bb52248db646/core-1.3.2/AndroidManifest.xml:24:18-86
+19        android:debuggable="true"
+20        android:icon="@mipmap/ic_launcher"
+20-->/Users/ed007/Downloads/auth/android/app/src/main/AndroidManifest.xml:5:9-43
+21        android:label="auth"
+21-->/Users/ed007/Downloads/auth/android/app/src/main/AndroidManifest.xml:4:9-29
+22        android:supportsRtl="true" >
+22-->[com.facebook.android:facebook-login:9.1.0] /Users/ed007/.gradle/caches/transforms-2/files-2.1/e3d0e4f44f796c32b531d761539d5755/jetified-facebook-login-9.1.0/AndroidManifest.xml:28:18-44
+23        <activity
+23-->/Users/ed007/Downloads/auth/android/app/src/main/AndroidManifest.xml:7:9-35:20
+24            android:name="com.example.auth.MainActivity"
+24-->/Users/ed007/Downloads/auth/android/app/src/main/AndroidManifest.xml:8:13-41
+25            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+25-->/Users/ed007/Downloads/auth/android/app/src/main/AndroidManifest.xml:11:13-163
+26            android:hardwareAccelerated="true"
+26-->/Users/ed007/Downloads/auth/android/app/src/main/AndroidManifest.xml:12:13-47
+27            android:launchMode="singleTop"
+27-->/Users/ed007/Downloads/auth/android/app/src/main/AndroidManifest.xml:9:13-43
+28            android:theme="@style/LaunchTheme"
+28-->/Users/ed007/Downloads/auth/android/app/src/main/AndroidManifest.xml:10:13-47
+29            android:windowSoftInputMode="adjustResize" >
+29-->/Users/ed007/Downloads/auth/android/app/src/main/AndroidManifest.xml:13:13-55
+30
+31            <!--
+32                 Specifies an Android theme to apply to this Activity as soon as
+33                 the Android process has started. This theme is visible to the user
+34                 while the Flutter UI initializes. After that, this theme continues
+35                 to determine the Window background behind the Flutter UI.
+36            -->
+37            <meta-data
+37-->/Users/ed007/Downloads/auth/android/app/src/main/AndroidManifest.xml:18:13-21:17
+38                android:name="io.flutter.embedding.android.NormalTheme"
+38-->/Users/ed007/Downloads/auth/android/app/src/main/AndroidManifest.xml:19:15-70
+39                android:resource="@style/NormalTheme" />
+39-->/Users/ed007/Downloads/auth/android/app/src/main/AndroidManifest.xml:20:15-52
+40            <!--
+41                 Displays an Android View that continues showing the launch screen
+42                 Drawable until Flutter paints its first frame, then this splash
+43                 screen fades out. A splash screen is useful to avoid any visual
+44                 gap between the end of Android's launch screen and the painting of
+45                 Flutter's first frame.
+46            -->
+47            <meta-data
+47-->/Users/ed007/Downloads/auth/android/app/src/main/AndroidManifest.xml:27:13-30:17
+48                android:name="io.flutter.embedding.android.SplashScreenDrawable"
+48-->/Users/ed007/Downloads/auth/android/app/src/main/AndroidManifest.xml:28:15-79
+49                android:resource="@drawable/launch_background" />
+49-->/Users/ed007/Downloads/auth/android/app/src/main/AndroidManifest.xml:29:15-61
+50
+51            <intent-filter>
+51-->/Users/ed007/Downloads/auth/android/app/src/main/AndroidManifest.xml:31:13-34:29
+52                <action android:name="android.intent.action.MAIN" />
+52-->/Users/ed007/Downloads/auth/android/app/src/main/AndroidManifest.xml:32:17-68
+52-->/Users/ed007/Downloads/auth/android/app/src/main/AndroidManifest.xml:32:25-66
+53
+54                <category android:name="android.intent.category.LAUNCHER" />
+54-->/Users/ed007/Downloads/auth/android/app/src/main/AndroidManifest.xml:33:17-76
+54-->/Users/ed007/Downloads/auth/android/app/src/main/AndroidManifest.xml:33:27-74
+55            </intent-filter>
+56        </activity>
+57
+58        <meta-data
+58-->/Users/ed007/Downloads/auth/android/app/src/main/AndroidManifest.xml:37:8-106
+59            android:name="com.facebook.sdk.ApplicationId"
+59-->/Users/ed007/Downloads/auth/android/app/src/main/AndroidManifest.xml:37:19-64
+60            android:value="@string/facebook_app_id" />
+60-->/Users/ed007/Downloads/auth/android/app/src/main/AndroidManifest.xml:37:65-104
+61
+62        <activity
+62-->/Users/ed007/Downloads/auth/android/app/src/main/AndroidManifest.xml:38:8-39:109
+63            android:name="com.facebook.FacebookActivity"
+63-->/Users/ed007/Downloads/auth/android/app/src/main/AndroidManifest.xml:38:18-62
+64            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+64-->/Users/ed007/Downloads/auth/android/app/src/main/AndroidManifest.xml:38:63-158
+65            android:label="@string/app_name"
+65-->/Users/ed007/Downloads/auth/android/app/src/main/AndroidManifest.xml:39:74-106
+66            android:theme="@style/com_facebook_activity_theme" />
+66-->[com.facebook.android:facebook-common:9.1.0] /Users/ed007/.gradle/caches/transforms-2/files-2.1/bfa714752849f65598e4e2180c2d8851/jetified-facebook-common-9.1.0/AndroidManifest.xml:33:13-63
+67        <activity
+67-->/Users/ed007/Downloads/auth/android/app/src/main/AndroidManifest.xml:41:8-48:19
+68            android:name="com.facebook.CustomTabActivity"
+68-->/Users/ed007/Downloads/auth/android/app/src/main/AndroidManifest.xml:41:18-63
+69            android:exported="true" >
+69-->/Users/ed007/Downloads/auth/android/app/src/main/AndroidManifest.xml:41:64-87
+70            <intent-filter>
+70-->/Users/ed007/Downloads/auth/android/app/src/main/AndroidManifest.xml:42:12-47:28
+71                <action android:name="android.intent.action.VIEW" />
+71-->/Users/ed007/Downloads/auth/android/app/src/main/AndroidManifest.xml:43:16-68
+71-->/Users/ed007/Downloads/auth/android/app/src/main/AndroidManifest.xml:43:24-65
+72
+73                <category android:name="android.intent.category.DEFAULT" />
+73-->/Users/ed007/Downloads/auth/android/app/src/main/AndroidManifest.xml:44:16-75
+73-->/Users/ed007/Downloads/auth/android/app/src/main/AndroidManifest.xml:44:26-72
+74                <category android:name="android.intent.category.BROWSABLE" />
+74-->/Users/ed007/Downloads/auth/android/app/src/main/AndroidManifest.xml:45:16-77
+74-->/Users/ed007/Downloads/auth/android/app/src/main/AndroidManifest.xml:45:26-74
+75
+76                <data android:scheme="@string/fb_login_protocol_scheme" />
+76-->/Users/ed007/Downloads/auth/android/app/src/main/AndroidManifest.xml:46:16-74
+76-->/Users/ed007/Downloads/auth/android/app/src/main/AndroidManifest.xml:46:22-71
+77            </intent-filter>
+78            <intent-filter>
+78-->[com.facebook.android:facebook-common:9.1.0] /Users/ed007/.gradle/caches/transforms-2/files-2.1/bfa714752849f65598e4e2180c2d8851/jetified-facebook-common-9.1.0/AndroidManifest.xml:39:13-48:29
+79                <action android:name="android.intent.action.VIEW" />
+79-->/Users/ed007/Downloads/auth/android/app/src/main/AndroidManifest.xml:43:16-68
+79-->/Users/ed007/Downloads/auth/android/app/src/main/AndroidManifest.xml:43:24-65
+80
+81                <category android:name="android.intent.category.DEFAULT" />
+81-->/Users/ed007/Downloads/auth/android/app/src/main/AndroidManifest.xml:44:16-75
+81-->/Users/ed007/Downloads/auth/android/app/src/main/AndroidManifest.xml:44:26-72
+82                <category android:name="android.intent.category.BROWSABLE" />
+82-->/Users/ed007/Downloads/auth/android/app/src/main/AndroidManifest.xml:45:16-77
+82-->/Users/ed007/Downloads/auth/android/app/src/main/AndroidManifest.xml:45:26-74
+83
+84                <data
+84-->/Users/ed007/Downloads/auth/android/app/src/main/AndroidManifest.xml:46:16-74
+85                    android:host="cct.com.example.auth"
+86                    android:scheme="fbconnect" />
+86-->/Users/ed007/Downloads/auth/android/app/src/main/AndroidManifest.xml:46:22-71
+87            </intent-filter>
+88        </activity>
+89        <!--
+90             Don't delete the meta-data below.
+91             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+92        -->
+93        <meta-data
+93-->/Users/ed007/Downloads/auth/android/app/src/main/AndroidManifest.xml:51:9-53:33
+94            android:name="flutterEmbedding"
+94-->/Users/ed007/Downloads/auth/android/app/src/main/AndroidManifest.xml:52:13-44
+95            android:value="2" />
+95-->/Users/ed007/Downloads/auth/android/app/src/main/AndroidManifest.xml:53:13-30
+96
+97        <activity android:name="com.facebook.CustomTabMainActivity" />
+97-->[com.facebook.android:facebook-common:9.1.0] /Users/ed007/.gradle/caches/transforms-2/files-2.1/bfa714752849f65598e4e2180c2d8851/jetified-facebook-common-9.1.0/AndroidManifest.xml:34:9-71
+97-->[com.facebook.android:facebook-common:9.1.0] /Users/ed007/.gradle/caches/transforms-2/files-2.1/bfa714752849f65598e4e2180c2d8851/jetified-facebook-common-9.1.0/AndroidManifest.xml:34:19-68
+98        <!--
+99         The initialization ContentProvider will call FacebookSdk.sdkInitialize automatically
+100         with the application context. This config is merged in with the host app's manifest,
+101         but there can only be one provider with the same authority activated at any given
+102         point; so if the end user has two or more different apps that use Facebook SDK, only the
+103         first one will be able to use the provider. To work around this problem, we use the
+104         following placeholder in the authority to identify each host application as if it was
+105         a completely different provider.
+106        -->
+107        <provider
+107-->[com.facebook.android:facebook-core:9.1.0] /Users/ed007/.gradle/caches/transforms-2/files-2.1/8efdc2c746f52734f8af17ee19f8428d/jetified-facebook-core-9.1.0/AndroidManifest.xml:39:9-42:40
+108            android:name="com.facebook.internal.FacebookInitProvider"
+108-->[com.facebook.android:facebook-core:9.1.0] /Users/ed007/.gradle/caches/transforms-2/files-2.1/8efdc2c746f52734f8af17ee19f8428d/jetified-facebook-core-9.1.0/AndroidManifest.xml:40:13-70
+109            android:authorities="com.example.auth.FacebookInitProvider"
+109-->[com.facebook.android:facebook-core:9.1.0] /Users/ed007/.gradle/caches/transforms-2/files-2.1/8efdc2c746f52734f8af17ee19f8428d/jetified-facebook-core-9.1.0/AndroidManifest.xml:41:13-72
+110            android:exported="false" />
+110-->[com.facebook.android:facebook-core:9.1.0] /Users/ed007/.gradle/caches/transforms-2/files-2.1/8efdc2c746f52734f8af17ee19f8428d/jetified-facebook-core-9.1.0/AndroidManifest.xml:42:13-37
+111
+112        <receiver
+112-->[com.facebook.android:facebook-core:9.1.0] /Users/ed007/.gradle/caches/transforms-2/files-2.1/8efdc2c746f52734f8af17ee19f8428d/jetified-facebook-core-9.1.0/AndroidManifest.xml:44:9-50:20
+113            android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"
+113-->[com.facebook.android:facebook-core:9.1.0] /Users/ed007/.gradle/caches/transforms-2/files-2.1/8efdc2c746f52734f8af17ee19f8428d/jetified-facebook-core-9.1.0/AndroidManifest.xml:45:13-86
+114            android:exported="false" >
+114-->[com.facebook.android:facebook-core:9.1.0] /Users/ed007/.gradle/caches/transforms-2/files-2.1/8efdc2c746f52734f8af17ee19f8428d/jetified-facebook-core-9.1.0/AndroidManifest.xml:46:13-37
+115            <intent-filter>
+115-->[com.facebook.android:facebook-core:9.1.0] /Users/ed007/.gradle/caches/transforms-2/files-2.1/8efdc2c746f52734f8af17ee19f8428d/jetified-facebook-core-9.1.0/AndroidManifest.xml:47:13-49:29
+116                <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED" />
+116-->[com.facebook.android:facebook-core:9.1.0] /Users/ed007/.gradle/caches/transforms-2/files-2.1/8efdc2c746f52734f8af17ee19f8428d/jetified-facebook-core-9.1.0/AndroidManifest.xml:48:17-95
+116-->[com.facebook.android:facebook-core:9.1.0] /Users/ed007/.gradle/caches/transforms-2/files-2.1/8efdc2c746f52734f8af17ee19f8428d/jetified-facebook-core-9.1.0/AndroidManifest.xml:48:25-92
+117            </intent-filter>
+118        </receiver>
+119
+120        <activity
+120-->[com.google.android.gms:play-services-auth:16.0.1] /Users/ed007/.gradle/caches/transforms-2/files-2.1/b090f91ae895911f3a56a2478aacab16/jetified-play-services-auth-16.0.1/AndroidManifest.xml:23:9-27:75
+121            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+121-->[com.google.android.gms:play-services-auth:16.0.1] /Users/ed007/.gradle/caches/transforms-2/files-2.1/b090f91ae895911f3a56a2478aacab16/jetified-play-services-auth-16.0.1/AndroidManifest.xml:24:13-93
+122            android:excludeFromRecents="true"
+122-->[com.google.android.gms:play-services-auth:16.0.1] /Users/ed007/.gradle/caches/transforms-2/files-2.1/b090f91ae895911f3a56a2478aacab16/jetified-play-services-auth-16.0.1/AndroidManifest.xml:25:13-46
+123            android:exported="false"
+123-->[com.google.android.gms:play-services-auth:16.0.1] /Users/ed007/.gradle/caches/transforms-2/files-2.1/b090f91ae895911f3a56a2478aacab16/jetified-play-services-auth-16.0.1/AndroidManifest.xml:26:13-37
+124            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+124-->[com.google.android.gms:play-services-auth:16.0.1] /Users/ed007/.gradle/caches/transforms-2/files-2.1/b090f91ae895911f3a56a2478aacab16/jetified-play-services-auth-16.0.1/AndroidManifest.xml:27:13-72
+125        <!--
+126            Service handling Google Sign-In user revocation. For apps that do not integrate with
+127            Google Sign-In, this service will never be started.
+128        -->
+129        <service
+129-->[com.google.android.gms:play-services-auth:16.0.1] /Users/ed007/.gradle/caches/transforms-2/files-2.1/b090f91ae895911f3a56a2478aacab16/jetified-play-services-auth-16.0.1/AndroidManifest.xml:33:9-36:110
+130            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+130-->[com.google.android.gms:play-services-auth:16.0.1] /Users/ed007/.gradle/caches/transforms-2/files-2.1/b090f91ae895911f3a56a2478aacab16/jetified-play-services-auth-16.0.1/AndroidManifest.xml:34:13-89
+131            android:exported="true"
+131-->[com.google.android.gms:play-services-auth:16.0.1] /Users/ed007/.gradle/caches/transforms-2/files-2.1/b090f91ae895911f3a56a2478aacab16/jetified-play-services-auth-16.0.1/AndroidManifest.xml:35:13-36
+132            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
+132-->[com.google.android.gms:play-services-auth:16.0.1] /Users/ed007/.gradle/caches/transforms-2/files-2.1/b090f91ae895911f3a56a2478aacab16/jetified-play-services-auth-16.0.1/AndroidManifest.xml:36:13-107
+133
+134        <activity
+134-->[com.google.android.gms:play-services-base:16.0.1] /Users/ed007/.gradle/caches/transforms-2/files-2.1/4644756f49dd369f3377d97a9f93256f/jetified-play-services-base-16.0.1/AndroidManifest.xml:23:9-26:75
+135            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+135-->[com.google.android.gms:play-services-base:16.0.1] /Users/ed007/.gradle/caches/transforms-2/files-2.1/4644756f49dd369f3377d97a9f93256f/jetified-play-services-base-16.0.1/AndroidManifest.xml:24:13-79
+136            android:exported="false"
+136-->[com.google.android.gms:play-services-base:16.0.1] /Users/ed007/.gradle/caches/transforms-2/files-2.1/4644756f49dd369f3377d97a9f93256f/jetified-play-services-base-16.0.1/AndroidManifest.xml:25:13-37
+137            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+137-->[com.google.android.gms:play-services-base:16.0.1] /Users/ed007/.gradle/caches/transforms-2/files-2.1/4644756f49dd369f3377d97a9f93256f/jetified-play-services-base-16.0.1/AndroidManifest.xml:26:13-72
+138
+139        <meta-data
+139-->[com.google.android.gms:play-services-basement:16.0.1] /Users/ed007/.gradle/caches/transforms-2/files-2.1/1b6159bc333e99dac157248bb73b707a/jetified-play-services-basement-16.0.1/AndroidManifest.xml:23:9-25:69
+140            android:name="com.google.android.gms.version"
+140-->[com.google.android.gms:play-services-basement:16.0.1] /Users/ed007/.gradle/caches/transforms-2/files-2.1/1b6159bc333e99dac157248bb73b707a/jetified-play-services-basement-16.0.1/AndroidManifest.xml:24:13-58
+141            android:value="@integer/google_play_services_version" />
+141-->[com.google.android.gms:play-services-basement:16.0.1] /Users/ed007/.gradle/caches/transforms-2/files-2.1/1b6159bc333e99dac157248bb73b707a/jetified-play-services-basement-16.0.1/AndroidManifest.xml:25:13-66
+142    </application>
+143
+144</manifest>
